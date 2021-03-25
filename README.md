@@ -1,9 +1,14 @@
-# A list of comprehensive and sometimes experimental Patterns learnt and observed
+### A list of (sometimes experimental) useful Patterns learnt
 
 
-### hoco 
+__Configuration Purposes__:
 
-        A way to handle/manage/merge multiple json configuration files
+| Pattern | Description |
+|:-------:| ----------- |
+| [hoco](hoco/hoco1.py) | handle/manage/merge multiple json configuration files |
+
+
+        
         
 
 
