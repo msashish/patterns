@@ -28,6 +28,9 @@ class Database:
         print("Connecting to dummy")
 
 
+#  If no __init__() method is implemented in the inherited class, then the parent __init__()
+#  will be called automatically when an object of the inherited class is created.
+
 class DEV(Database):
 
     def create_tns(self):
