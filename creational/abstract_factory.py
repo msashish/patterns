@@ -69,8 +69,8 @@ print("Testing Abstract Factory")
 load_dotenv(join(dirname(__file__), ".env"))
 env_var = os.environ.get("ENV")
 
-DatabaseFactory(eval("DEV")).create().create_tns()
+#DatabaseFactory(eval("DEV")).create().create_tns()
 
 DatabaseFactory(eval(env_var)).create().create_tns()
 
-DatabaseFactory(PROD).create().create_tns()
+#DatabaseFactory(PROD).create().create_tns()
